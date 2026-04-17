@@ -35,10 +35,11 @@ body {
 /* PROFILE IMAGE */
 .profile-img {
     width: 150px;
-    height: 150px;   /* IMPORTANT */
-    object-fit: cover; /* crops nicely */
-    border-radius: 50%;
-    margin-bottom: 15px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50% !important;
+    display: block;
+    margin: 0 auto 15px auto;
 }
 
 /* SECTIONS */
@@ -81,7 +82,7 @@ body {
 
 <!-- HEADER -->
 <div class="header">
-<img src="profile.jpg" class="profile-img">
+<img src="profile.jpg" class="profile-img" alt="profile">
 <h1>Venkatramanan M</h1>
 <p><b>ICMR Project Scientist | Translational Researcher</b></p>
 <a href="CV.pdf" class="button" download>Download CV</a>
